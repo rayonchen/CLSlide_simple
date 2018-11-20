@@ -5,9 +5,14 @@
 由于拆出来有点小麻烦且需要URL数据才能显示效果，就先弄了这个
 可在滑动的scrollView上添加View
 
-### 使用
-下载demo，将`滑动页_简单版`文件添加到自己工程中
-具体使用
+## 使用
+### Pod
+pod 'CLSlide_simple', '~> 1.0.0'
+
+### 下载demo
+将`Slide`文件添加到自己工程中
+
+具体使用, 可在viewController.m文件中查看
 ```
 CLSlidePage_simple *slideView = [[CLSlidePage_simple alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, 500) titles:@[@"测试1", @"测试22222", @"测试333", @"测试444", @"测试55", @"测试6666"] block:^(CLSlidePage_simple *slideView) {
 
@@ -34,4 +39,4 @@ CLSlidePage_simple *slideView = [[CLSlidePage_simple alloc]initWithFrame:CGRectM
 
 ```
 
-##### PS:简单几步集成`简易新闻App`的代码马上推出
+##### PS:简单几步集成`简易新闻App`地址 https://github.com/rayonchen/CLSlideView
